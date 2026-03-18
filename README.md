@@ -1,8 +1,8 @@
-# 💰 Personal Finance Tracker API
+# # Transaction Fraud Detection API
 
 A secure, production-ready RESTful API for personal finance management built with **Node.js**, **Express.js**, and **MySQL**.
 
-## 🚀 Features
+##  Features
 
 - **JWT Authentication** — Secure login/register with token-based auth
 - **Transaction Management** — Full CRUD with filtering, pagination & date ranges
@@ -15,7 +15,7 @@ A secure, production-ready RESTful API for personal finance management built wit
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -29,7 +29,7 @@ A secure, production-ready RESTful API for personal finance management built wit
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 finance-tracker/
@@ -55,7 +55,7 @@ finance-tracker/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Clone and install dependencies
 ```bash
@@ -88,7 +88,7 @@ Server runs at: `http://localhost:3000`
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Auth
 | Method | Endpoint | Description |
@@ -117,7 +117,7 @@ Server runs at: `http://localhost:3000`
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 All protected routes require a Bearer token in the Authorization header:
 
@@ -127,7 +127,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-## 📝 Example Requests
+##  Example Requests
 
 ### Register
 ```bash
@@ -158,7 +158,7 @@ curl "http://localhost:3000/api/transactions?type=expense&start_date=2025-06-01&
 
 ---
 
-## 🧠 Key Design Decisions
+##  Key Design Decisions
 
 - **Connection Pooling** — MySQL pool with 10 connections for scalability
 - **Parameterized Queries** — All SQL uses `?` placeholders to prevent SQL injection
