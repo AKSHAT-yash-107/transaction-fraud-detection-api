@@ -1,4 +1,4 @@
-# # Transaction Fraud Detection API
+## Transaction Fraud Detection API
 
 A secure, production-ready RESTful API for personal finance management built with **Node.js**, **Express.js**, and **MySQL**.
 
